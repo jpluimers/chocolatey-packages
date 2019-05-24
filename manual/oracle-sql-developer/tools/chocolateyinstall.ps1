@@ -1,9 +1,9 @@
 ﻿$ErrorActionPreference = 'Stop';
 
-. "$toolsDir/helpers.ps1"
-
 $packageDir = $env:ChocolateyPackageFolder
 $toolsDir = Split-Path -parent $MyInvocation.MyCommand.Definition
+
+. "$toolsDir/helpers.ps1"
 
 $params = Get-PackageParameters
 
