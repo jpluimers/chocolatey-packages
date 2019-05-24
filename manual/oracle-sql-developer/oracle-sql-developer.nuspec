@@ -21,6 +21,11 @@
       * An Oracle account is **required** to download this package. See the "Package Parameters" section below for
       details on how to provide your Oracle credentials to the installer. If you don't have an existing account, you can
       create one for free here: https://profile.oracle.com/myprofile/account/create-account.jspx
+      * If you get the below error when installing, then sure you run Internet Explorer at least once 
+      (for instance by calling `start iexplore` from the elevated command prompt)
+
+        > ERROR: The response content cannot be parsed because the Internet Explorer engine is not available, or Internet
+        > Explorer's first-launch configuration is not complete. Specify the UseBasicParsing parameter and try again.
 
       #### Package Parameters
       The following package parameters are **required**:
